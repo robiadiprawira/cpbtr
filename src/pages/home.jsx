@@ -1,6 +1,7 @@
 import Layout from "../component/layout";
 import Header from "../component/header";
 import Hero from "../component/hero";
+import Wcus from "../component/wcus";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Layout>
         <Header />
         <Hero />
+        <Wcus />
       </Layout>
     </>
   );
